@@ -1,35 +1,34 @@
 public class Main {
     public static void main(String[] args) {
-        //Задание 1,2,3
-
+        //Задание 1
         var dog = 8;
         System.out.println(dog);
-        dog = dog + 4;
-        System.out.println(dog);
-        var dog1 = 8.0;
-        dog1 = dog1 - 3.5;
-        System.out.println(dog1);
         var cat = 3.6;
-        System.out.println(cat);
-        cat = cat+4;
-        System.out.println(cat);
-        cat = cat - 1.6;
         System.out.println(cat);
         var paper = 763789;
         System.out.println(paper);
+        //Задание 2
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat+4;
+        System.out.println(cat);
         paper = paper+4;
         System.out.println(paper);
+        //Задание 3
+        var dog1 = 8.0;
+        dog1 = dog1 - 3.5;
+        System.out.println(dog1);
+        cat = cat - 1.6;
+        System.out.println(cat);
         paper = paper - 7639;
         System.out.println(paper);
-
         //Задание 4
-        var friend = 19;
+        var friend = 3;
         System.out.println(friend);
         friend = friend + 2;
         System.out.println(friend);
-        friend = friend/7;
+        friend/=7;
         System.out.println(friend);
-
         //Задание 5
         var frog = 3.5;
         System.out.println(frog);
@@ -39,7 +38,6 @@ public class Main {
         System.out.println(frog);
         frog += 4;
         System.out.println(frog);
-
         //Задание 6
         var boxerWeight1 = 78.2;
         System.out.println(boxerWeight1);
@@ -47,14 +45,13 @@ public class Main {
         System.out.println(boxerWeight2);
         var totalboxerWeight = boxerWeight1 + boxerWeight2;
         System.out.println(totalboxerWeight);
-        var differenceBoxerWeight =  boxerWeight2 - boxerWeight1;
+        var differenceBoxerWeight = boxerWeight2 - boxerWeight1;
         System.out.println(differenceBoxerWeight);
         //Задание 7
         differenceBoxerWeight = boxerWeight2 - boxerWeight1;
         System.out.println(differenceBoxerWeight);
         differenceBoxerWeight = boxerWeight2%boxerWeight1;
         System.out.println(differenceBoxerWeight);
-
         //Задание 8
         var totalWorkHours = 640;
         System.out.println(totalWorkHours);
